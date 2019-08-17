@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS60401
+D IC CHARGE PUMP INVERTER SOT-23-5
+K pump inverter
+F http://www.ti.com/lit/ds/symlink/tps60400.pdf
+$ENDCMP
+#
+#End Doc Library

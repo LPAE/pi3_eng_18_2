@@ -1,0 +1,23 @@
+Circuit: * Z:\media\ricardo\data\Documents\IFSC-ENGENHARIA\07\projeto_integrador_iii\eletrocardiografo\simulations\agc\jfet\agc_4.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by J2.
+WARNING: Less than two connections to node NC_02.  This node is used by V3.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Nov 24 21:57:29 2018
+Total elapsed time: 2.106 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 142407
+traniter = 142389
+tranpoints = 43955
+accept = 30750
+rejected = 13205
+matrix size = 82
+fillins = 159
+solver = Normal
+Matrix Compiler1: 13.47 KB object code size  3.6/2.5/[1.5]
+Matrix Compiler2: 9.40 KB object code size  1.4/2.3/[1.1]
+

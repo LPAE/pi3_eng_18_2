@@ -1,0 +1,153 @@
+.title KiCad schematic
+U1 /Inversoras/Vin_1_1 Net-_C1-Pad1_ GND +15V GND Net-_C2-Pad1_ /Inversoras/Vin_2_1 /Inversoras/Vin_3_1 Net-_C3-Pad1_ GND -15V GND Net-_C7-Pad1_ /Inversoras/Vin_4_1 TL074
+U2 /Inversoras/Vin_5_1 Net-_C8-Pad1_ GND +15V GND Net-_C12-Pad2_ /Inversoras/Vin_6_1 /Inversoras/Vin_7_1 Net-_C11-Pad1_ GND -15V GND Net-_R19-Pad1_ /Inversoras/Vinv_1 TL074
+U3 /Inversoras/Vinv_2 Net-_R20-Pad1_ GND +15V GND Net-_R21-Pad1_ /Inversoras/Vinv_3 /Inversoras/Vinv_4 Net-_R22-Pad1_ GND -15V GND Net-_R23-Pad1_ /Inversoras/Vinv_5 TL074
+U4 /Inversoras/Vinv_6 Net-_R24-Pad1_ GND +15V GND Net-_R25-Pad1_ /Inversoras/Vinv_7 /Somador/Vin_1_3 Net-_C17-Pad1_ /VCA/Vin_1_2 -15V /VCA/Vin_2_2 Net-_C18-Pad1_ /Somador/Vin_2_3 TL074
+U5 /Somador/Vin_3_3 Net-_C19-Pad1_ /VCA/Vin_3_2 +15V /VCA/Vin_4_2 Net-_C22-Pad1_ /Somador/Vin_4_3 /Somador/Vin_5_3 Net-_C23-Pad1_ /VCA/Vin_5_2 -15V /VCA/Vin_6_2 Net-_C26-Pad1_ /Somador/Vin_6_3 TL074
+U6 /Somador/Vin_7_3 Net-_C27-Pad1_ /VCA/Vin_7_2 +15V Net-_R68-Pad1_ Net-_C29-Pad1_ /Somador/Vout -15V TL074
+IC1 NC_01 NC_02 NC_03 /Inversoras/Ctrl_inv_1 /Inversoras/Ctrl_inv_2 /Inversoras/Ctrl_inv_3 /Inversoras/Ctrl_inv_4 NC_04 NC_05 /Inversoras/INH /Inversoras/Ctrl_inv_7 /Inversoras/Ctrl_inv_6 /Inversoras/Ctrl_inv_5 NC_06 4094D
+R7 /Inversoras/Vin_1_1 Net-_C1-Pad1_ R_US
+C4 /Inversoras/Vin_1_1 Net-_C1-Pad2_ C_Small
+R4 GND Net-_C1-Pad2_ R_US
+R1 /Somador/Vin Net-_C1-Pad2_ R_US
+C1 Net-_C1-Pad1_ Net-_C1-Pad2_ C_Small
+R9 /Inversoras/Vin_3_1 Net-_C3-Pad1_ R_US
+C6 /Inversoras/Vin_3_1 Net-_C3-Pad2_ C_Small
+R6 GND Net-_C3-Pad2_ R_US
+R3 /Somador/Vin Net-_C3-Pad2_ R_US
+C3 Net-_C3-Pad1_ Net-_C3-Pad2_ C_Small
+R15 /Inversoras/Vin_5_1 Net-_C8-Pad1_ R_US
+C10 /Inversoras/Vin_5_1 Net-_C10-Pad2_ C_Small
+R13 GND Net-_C10-Pad2_ R_US
+R11 /Somador/Vin Net-_C10-Pad2_ R_US
+C8 Net-_C8-Pad1_ Net-_C10-Pad2_ C_Small
+R8 /Inversoras/Vin_2_1 Net-_C2-Pad1_ R_US
+C5 /Inversoras/Vin_2_1 Net-_C2-Pad2_ C_Small
+R5 GND Net-_C2-Pad2_ R_US
+R2 /Somador/Vin Net-_C2-Pad2_ R_US
+C2 Net-_C2-Pad1_ Net-_C2-Pad2_ C_Small
+R14 /Inversoras/Vin_4_1 Net-_C7-Pad1_ R_US
+C9 /Inversoras/Vin_4_1 Net-_C7-Pad2_ C_Small
+R12 GND Net-_C7-Pad2_ R_US
+R10 /Somador/Vin Net-_C7-Pad2_ R_US
+C7 Net-_C7-Pad1_ Net-_C7-Pad2_ C_Small
+R17 /Inversoras/Vin_6_1 Net-_C12-Pad2_ R_US
+C12 /Inversoras/Vin_6_1 Net-_C12-Pad2_ C_Small
+R16 /Somador/Vin Net-_C12-Pad2_ R_US
+R18 /Inversoras/Vin_7_1 Net-_C11-Pad1_ R_US
+C13 /Inversoras/Vin_7_1 Net-_C11-Pad1_ C_Small
+C11 Net-_C11-Pad1_ /Somador/Vin C_Small
+R19 Net-_R19-Pad1_ /Inversoras/Vin_1_1 10k
+R26 /Inversoras/Vinv_1 Net-_R19-Pad1_ 10k
+R20 Net-_R20-Pad1_ /Inversoras/Vin_2_1 10k
+R27 /Inversoras/Vinv_2 Net-_R20-Pad1_ 10k
+R21 Net-_R21-Pad1_ /Inversoras/Vin_3_1 10k
+R28 /Inversoras/Vinv_3 Net-_R21-Pad1_ 10k
+R22 Net-_R22-Pad1_ /Inversoras/Vin_4_1 10k
+R29 /Inversoras/Vinv_4 Net-_R22-Pad1_ 10k
+R23 Net-_R23-Pad1_ /Inversoras/Vin_5_1 10k
+R30 /Inversoras/Vinv_5 Net-_R23-Pad1_ 10k
+R24 Net-_R24-Pad1_ /Inversoras/Vin_6_1 10k
+R31 /Inversoras/Vinv_6 Net-_R24-Pad1_ 10k
+R25 Net-_R25-Pad1_ /Inversoras/Vin_7_1 10k
+R32 /Inversoras/Vinv_7 Net-_R25-Pad1_ 10k
+U7 /Inversoras/Vin_2_1 /Inversoras/Vinv_2 /Inversoras/Vin_3_1 /VCA/Vin_3_2 /Inversoras/Vinv_3 /Inversoras/INH -15V GND /Inversoras/Ctrl_inv_3 /Inversoras/Ctrl_inv_2 /Inversoras/Ctrl_inv_1 /Inversoras/Vinv_1 /Inversoras/Vin_1_1 /VCA/Vin_1_2 /VCA/Vin_2_2 +15V 4053
+U8 /Inversoras/Vin_5_1 /Inversoras/Vinv_5 /Inversoras/Vin_6_1 /VCA/Vin_6_2 /Inversoras/Vinv_6 /Inversoras/INH -15V GND /Inversoras/Ctrl_inv_6 /Inversoras/Ctrl_inv_5 /Inversoras/Ctrl_inv_4 /Inversoras/Vinv_4 /Inversoras/Vin_4_1 /VCA/Vin_4_2 /VCA/Vin_5_2 +15V 4053
+U9 GND GND GND NC_07 GND /Inversoras/INH -15V GND GND GND /Inversoras/Ctrl_inv_7 /Inversoras/Vinv_7 /Inversoras/Vin_7_1 /VCA/Vin_7_2 NC_08 +15V 4053
+R45 /Somador/Vin_1_3 Net-_C17-Pad1_ R_US
+C17 Net-_C17-Pad1_ Net-_C17-Pad2_ C_Small
+Q1 Net-_Q1-Pad1_ GND Net-_C17-Pad1_ BF245C
+R42 Net-_C17-Pad2_ Net-_Q1-Pad1_ R_US
+R36 /VCA/Vin_1_2 GND R_US
+R47 /Somador/Vin_3_3 Net-_C19-Pad1_ R_US
+C19 Net-_C19-Pad1_ Net-_C19-Pad2_ C_Small
+Q3 Net-_Q3-Pad1_ GND Net-_C19-Pad1_ BF245C
+R44 Net-_C19-Pad2_ Net-_Q3-Pad1_ R_US
+R41 Net-_Q3-Pad1_ Net-_C16-Pad1_ R_US
+R38 /VCA/Vin_3_2 GND R_US
+R57 /Somador/Vin_5_3 Net-_C23-Pad1_ R_US
+C23 Net-_C23-Pad1_ Net-_C23-Pad2_ C_Small
+Q5 Net-_Q5-Pad1_ GND Net-_C23-Pad1_ BF245C
+R55 Net-_C23-Pad2_ Net-_Q5-Pad1_ R_US
+R51 /VCA/Vin_5_2 GND R_US
+R46 /Somador/Vin_2_3 Net-_C18-Pad1_ R_US
+C18 Net-_C18-Pad1_ Net-_C18-Pad2_ C_Small
+Q2 Net-_Q2-Pad1_ GND Net-_C18-Pad1_ BF245C
+R43 Net-_C18-Pad2_ Net-_Q2-Pad1_ R_US
+R37 /VCA/Vin_2_2 GND R_US
+R56 /Somador/Vin_4_3 Net-_C22-Pad1_ R_US
+C22 Net-_C22-Pad1_ Net-_C22-Pad2_ C_Small
+Q4 Net-_Q4-Pad1_ GND Net-_C22-Pad1_ BF245C
+R54 Net-_C22-Pad2_ Net-_Q4-Pad1_ R_US
+R50 /VCA/Vin_4_2 GND R_US
+R66 /Somador/Vin_6_3 Net-_C26-Pad1_ R_US
+C26 Net-_C26-Pad1_ Net-_C26-Pad2_ C_Small
+Q6 Net-_Q6-Pad1_ GND Net-_C26-Pad1_ BF245C
+R64 Net-_C26-Pad2_ Net-_Q6-Pad1_ R_US
+R60 /VCA/Vin_6_2 GND R_US
+R67 /Somador/Vin_7_3 Net-_C27-Pad1_ R_US
+C27 Net-_C27-Pad1_ Net-_C27-Pad2_ C_Small
+Q7 Net-_Q7-Pad1_ GND Net-_C27-Pad1_ BF245C
+R65 Net-_C27-Pad2_ Net-_Q7-Pad1_ R_US
+R61 /VCA/Vin_7_2 GND R_US
+R35 Net-_C16-Pad1_ NC_09 R_US
+C16 Net-_C16-Pad1_ GND C_Small
+R40 Net-_Q2-Pad1_ Net-_C15-Pad1_ R_US
+R34 Net-_C15-Pad1_ NC_10 R_US
+C15 Net-_C15-Pad1_ GND C_Small
+R39 Net-_Q1-Pad1_ Net-_C14-Pad1_ R_US
+R33 Net-_C14-Pad1_ NC_11 R_US
+C14 Net-_C14-Pad1_ GND C_Small
+R53 Net-_Q5-Pad1_ Net-_C21-Pad1_ R_US
+R49 Net-_C21-Pad1_ NC_12 R_US
+C21 Net-_C21-Pad1_ GND C_Small
+R52 Net-_Q4-Pad1_ Net-_C20-Pad1_ R_US
+R48 Net-_C20-Pad1_ NC_13 R_US
+C20 Net-_C20-Pad1_ GND C_Small
+R62 Net-_Q6-Pad1_ Net-_C24-Pad1_ R_US
+R58 Net-_C24-Pad1_ NC_14 R_US
+C24 Net-_C24-Pad1_ GND C_Small
+R63 Net-_Q7-Pad1_ Net-_C25-Pad1_ R_US
+R59 Net-_C25-Pad1_ NC_15 R_US
+C25 Net-_C25-Pad1_ GND C_Small
+R80 /Somador/Vout Net-_C29-Pad1_ R_US
+C29 Net-_C29-Pad1_ Net-_C29-Pad2_ C_Small
+Q8 Net-_Q8-Pad1_ GND Net-_C29-Pad1_ BF245C
+R79 Net-_C29-Pad2_ Net-_Q8-Pad1_ R_US
+R70 Net-_R68-Pad1_ /Somador/Vin_2_3 R_US
+R71 Net-_R68-Pad1_ /Somador/Vin_3_3 R_US
+R72 Net-_R68-Pad1_ /Somador/Vin_4_3 R_US
+R73 Net-_R68-Pad1_ /Somador/Vin_5_3 R_US
+R74 Net-_R68-Pad1_ /Somador/Vin_6_3 R_US
+R75 Net-_R68-Pad1_ /Somador/Vin_7_3 R_US
+R69 Net-_R68-Pad1_ /Somador/Vin_1_3 R_US
+R68 Net-_R68-Pad1_ /Somador/Vin R_US
+R77 Net-_R68-Pad1_ GND R_US
+R78 Net-_Q8-Pad1_ Net-_C28-Pad1_ R_US
+R76 Net-_C28-Pad1_ NC_16 R_US
+C28 Net-_C28-Pad1_ GND C_Small
+Q9 /Conversor de Nível/LV /Conversor de Nível/IN1 /Inversoras/Ctrl_inv_1 2N7002
+R81 /Conversor de Nível/LV /Conversor de Nível/IN1 R_US
+R89 /Conversor de Nível/HV /Inversoras/Ctrl_inv_1 R_US
+Q10 /Conversor de Nível/LV /Conversor de Nível/IN2 /Inversoras/Ctrl_inv_2 2N7002
+R82 /Conversor de Nível/LV /Conversor de Nível/IN2 R_US
+R90 /Conversor de Nível/HV /Inversoras/Ctrl_inv_2 R_US
+Q11 /Conversor de Nível/LV /Conversor de Nível/IN3 /Inversoras/Ctrl_inv_3 2N7002
+R83 /Conversor de Nível/LV /Conversor de Nível/IN3 R_US
+R91 /Conversor de Nível/HV /Inversoras/Ctrl_inv_3 R_US
+Q12 /Conversor de Nível/LV /Conversor de Nível/IN4 /Inversoras/Ctrl_inv_4 2N7002
+R84 /Conversor de Nível/LV /Conversor de Nível/IN4 R_US
+R92 /Conversor de Nível/HV /Inversoras/Ctrl_inv_4 R_US
+Q13 /Conversor de Nível/LV /Conversor de Nível/IN5 /Inversoras/Ctrl_inv_5 2N7002
+R85 /Conversor de Nível/LV /Conversor de Nível/IN5 R_US
+R93 /Conversor de Nível/HV /Inversoras/Ctrl_inv_5 R_US
+Q14 /Conversor de Nível/LV /Conversor de Nível/IN6 /Inversoras/Ctrl_inv_6 2N7002
+R86 /Conversor de Nível/LV /Conversor de Nível/IN6 R_US
+R94 /Conversor de Nível/HV /Inversoras/Ctrl_inv_6 R_US
+Q15 /Conversor de Nível/LV /Conversor de Nível/IN7 /Inversoras/Ctrl_inv_7 2N7002
+R87 /Conversor de Nível/LV /Conversor de Nível/IN7 R_US
+R95 /Conversor de Nível/HV /Inversoras/Ctrl_inv_7 R_US
+Q16 /Conversor de Nível/LV /Conversor de Nível/IN8 /Inversoras/INH 2N7002
+R88 /Conversor de Nível/LV /Conversor de Nível/IN8 R_US
+R96 /Conversor de Nível/HV /Inversoras/INH R_US
+.end
